@@ -1,7 +1,7 @@
 from flask import Flask, request
-#import numpy as np
-#import pandas as pd
-#import pickle
+import numpy as np
+import pandas as pd
+import pickle
 app = Flask(__name__)
 
 @app.route('/')
